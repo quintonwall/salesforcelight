@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A962C1F1BD7E74900A32053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A962C1E1BD7E74900A32053 /* AppDelegate.swift */; };
+		5A962C211BD7E74900A32053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A962C201BD7E74900A32053 /* ViewController.swift */; };
+		5A962C241BD7E74900A32053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A962C221BD7E74900A32053 /* Main.storyboard */; };
+		5A962C261BD7E74900A32053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A962C251BD7E74900A32053 /* Assets.xcassets */; };
+		5A962C291BD7E74900A32053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A962C271BD7E74900A32053 /* LaunchScreen.storyboard */; };
+		5A962C341BD7E74900A32053 /* SalesforceLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A962C331BD7E74900A32053 /* SalesforceLightTests.swift */; };
+		5A962C3F1BD7E74900A32053 /* SalesforceLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A962C3E1BD7E74900A32053 /* SalesforceLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A962C301BD7E74900A32053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A962C131BD7E74800A32053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A962C1A1BD7E74900A32053;
+			remoteInfo = SalesforceLight;
+		};
+		5A962C3B1BD7E74900A32053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A962C131BD7E74800A32053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A962C1A1BD7E74900A32053;
+			remoteInfo = SalesforceLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A962C1B1BD7E74900A32053 /* SalesforceLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesforceLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A962C1E1BD7E74900A32053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A962C201BD7E74900A32053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A962C231BD7E74900A32053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A962C251BD7E74900A32053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A962C281BD7E74900A32053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A962C2A1BD7E74900A32053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A962C2F1BD7E74900A32053 /* SalesforceLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesforceLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A962C331BD7E74900A32053 /* SalesforceLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesforceLightTests.swift; sourceTree = "<group>"; };
+		5A962C351BD7E74900A32053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A962C3A1BD7E74900A32053 /* SalesforceLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesforceLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A962C3E1BD7E74900A32053 /* SalesforceLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesforceLightUITests.swift; sourceTree = "<group>"; };
+		5A962C401BD7E74900A32053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A962C181BD7E74900A32053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C2C1BD7E74900A32053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C371BD7E74900A32053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A962C121BD7E74800A32053 = {
+			isa = PBXGroup;
+			children = (
+				5A962C1D1BD7E74900A32053 /* SalesforceLight */,
+				5A962C321BD7E74900A32053 /* SalesforceLightTests */,
+				5A962C3D1BD7E74900A32053 /* SalesforceLightUITests */,
+				5A962C1C1BD7E74900A32053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A962C1C1BD7E74900A32053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A962C1B1BD7E74900A32053 /* SalesforceLight.app */,
+				5A962C2F1BD7E74900A32053 /* SalesforceLightTests.xctest */,
+				5A962C3A1BD7E74900A32053 /* SalesforceLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A962C1D1BD7E74900A32053 /* SalesforceLight */ = {
+			isa = PBXGroup;
+			children = (
+				5A962C1E1BD7E74900A32053 /* AppDelegate.swift */,
+				5A962C201BD7E74900A32053 /* ViewController.swift */,
+				5A962C221BD7E74900A32053 /* Main.storyboard */,
+				5A962C251BD7E74900A32053 /* Assets.xcassets */,
+				5A962C271BD7E74900A32053 /* LaunchScreen.storyboard */,
+				5A962C2A1BD7E74900A32053 /* Info.plist */,
+			);
+			path = SalesforceLight;
+			sourceTree = "<group>";
+		};
+		5A962C321BD7E74900A32053 /* SalesforceLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A962C331BD7E74900A32053 /* SalesforceLightTests.swift */,
+				5A962C351BD7E74900A32053 /* Info.plist */,
+			);
+			path = SalesforceLightTests;
+			sourceTree = "<group>";
+		};
+		5A962C3D1BD7E74900A32053 /* SalesforceLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A962C3E1BD7E74900A32053 /* SalesforceLightUITests.swift */,
+				5A962C401BD7E74900A32053 /* Info.plist */,
+			);
+			path = SalesforceLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A962C1A1BD7E74900A32053 /* SalesforceLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A962C431BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLight" */;
+			buildPhases = (
+				5A962C171BD7E74900A32053 /* Sources */,
+				5A962C181BD7E74900A32053 /* Frameworks */,
+				5A962C191BD7E74900A32053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesforceLight;
+			productName = SalesforceLight;
+			productReference = 5A962C1B1BD7E74900A32053 /* SalesforceLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A962C2E1BD7E74900A32053 /* SalesforceLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A962C461BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLightTests" */;
+			buildPhases = (
+				5A962C2B1BD7E74900A32053 /* Sources */,
+				5A962C2C1BD7E74900A32053 /* Frameworks */,
+				5A962C2D1BD7E74900A32053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A962C311BD7E74900A32053 /* PBXTargetDependency */,
+			);
+			name = SalesforceLightTests;
+			productName = SalesforceLightTests;
+			productReference = 5A962C2F1BD7E74900A32053 /* SalesforceLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A962C391BD7E74900A32053 /* SalesforceLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A962C491BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLightUITests" */;
+			buildPhases = (
+				5A962C361BD7E74900A32053 /* Sources */,
+				5A962C371BD7E74900A32053 /* Frameworks */,
+				5A962C381BD7E74900A32053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A962C3C1BD7E74900A32053 /* PBXTargetDependency */,
+			);
+			name = SalesforceLightUITests;
+			productName = SalesforceLightUITests;
+			productReference = 5A962C3A1BD7E74900A32053 /* SalesforceLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A962C131BD7E74800A32053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "QUINTON WALL";
+				TargetAttributes = {
+					5A962C1A1BD7E74900A32053 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					5A962C2E1BD7E74900A32053 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5A962C1A1BD7E74900A32053;
+					};
+					5A962C391BD7E74900A32053 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5A962C1A1BD7E74900A32053;
+					};
+				};
+			};
+			buildConfigurationList = 5A962C161BD7E74800A32053 /* Build configuration list for PBXProject "SalesforceLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A962C121BD7E74800A32053;
+			productRefGroup = 5A962C1C1BD7E74900A32053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A962C1A1BD7E74900A32053 /* SalesforceLight */,
+				5A962C2E1BD7E74900A32053 /* SalesforceLightTests */,
+				5A962C391BD7E74900A32053 /* SalesforceLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A962C191BD7E74900A32053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A962C291BD7E74900A32053 /* LaunchScreen.storyboard in Resources */,
+				5A962C261BD7E74900A32053 /* Assets.xcassets in Resources */,
+				5A962C241BD7E74900A32053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C2D1BD7E74900A32053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C381BD7E74900A32053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A962C171BD7E74900A32053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A962C211BD7E74900A32053 /* ViewController.swift in Sources */,
+				5A962C1F1BD7E74900A32053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C2B1BD7E74900A32053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A962C341BD7E74900A32053 /* SalesforceLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A962C361BD7E74900A32053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A962C3F1BD7E74900A32053 /* SalesforceLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A962C311BD7E74900A32053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A962C1A1BD7E74900A32053 /* SalesforceLight */;
+			targetProxy = 5A962C301BD7E74900A32053 /* PBXContainerItemProxy */;
+		};
+		5A962C3C1BD7E74900A32053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A962C1A1BD7E74900A32053 /* SalesforceLight */;
+			targetProxy = 5A962C3B1BD7E74900A32053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A962C221BD7E74900A32053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A962C231BD7E74900A32053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A962C271BD7E74900A32053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A962C281BD7E74900A32053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A962C411BD7E74900A32053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A962C421BD7E74900A32053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A962C441BD7E74900A32053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalesforceLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A962C451BD7E74900A32053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalesforceLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A962C471BD7E74900A32053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalesforceLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesforceLight.app/SalesforceLight";
+			};
+			name = Debug;
+		};
+		5A962C481BD7E74900A32053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalesforceLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesforceLight.app/SalesforceLight";
+			};
+			name = Release;
+		};
+		5A962C4A1BD7E74900A32053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalesforceLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalesforceLight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5A962C4B1BD7E74900A32053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalesforceLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gypsycode.SalesforceLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalesforceLight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A962C161BD7E74800A32053 /* Build configuration list for PBXProject "SalesforceLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A962C411BD7E74900A32053 /* Debug */,
+				5A962C421BD7E74900A32053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A962C431BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A962C441BD7E74900A32053 /* Debug */,
+				5A962C451BD7E74900A32053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A962C461BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A962C471BD7E74900A32053 /* Debug */,
+				5A962C481BD7E74900A32053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A962C491BD7E74900A32053 /* Build configuration list for PBXNativeTarget "SalesforceLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A962C4A1BD7E74900A32053 /* Debug */,
+				5A962C4B1BD7E74900A32053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A962C131BD7E74800A32053 /* Project object */;
+}
